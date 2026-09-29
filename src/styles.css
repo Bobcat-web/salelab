@@ -190,13 +190,12 @@ a.evidence-card:hover { transform: translateY(-8px); box-shadow: 8px 8px 0 var(-
 .section-dark { padding: 130px max(5vw, 24px); background: var(--ink); color: white; }
 .section-head.light p { color: #c9d0da; }
 .roadmap-shell { display: grid; grid-template-columns: .72fr 1.28fr; gap: 48px; align-items: stretch; }
-.roadmap-tabs { position: relative; display: grid; }
-.road-tab { position: relative; z-index: 2; display: grid; grid-template-columns: 50px 1fr; gap: 20px; align-items: center; padding: 22px 0; color: #8591a3; background: transparent; border: 0; border-bottom: 1px solid #40506a; text-align: left; cursor: pointer; }
+.roadmap-tabs { --road-number-width: 50px; --road-divider-gap: 28px; --road-divider-position: 60px; position: relative; display: grid; }
+.road-tab { position: relative; z-index: 2; display: grid; grid-template-columns: var(--road-number-width) 1fr; gap: calc(var(--road-divider-gap) * 2); align-items: center; padding: 22px 0; color: #8591a3; background: transparent; border: 0; border-bottom: 1px solid #40506a; text-align: left; cursor: pointer; }
 .road-tab span { font: 600 .75rem 'IBM Plex Mono', monospace; }
 .road-tab b { font-size: .95rem; }
 .road-tab.active { color: white; }
-.road-tab.active::after { content: ''; width: 12px; height: 12px; border-radius: 50%; background: var(--orange); justify-self: end; }
-.road-progress { position: absolute; left: 16px; top: 32px; width: 2px; height: calc((var(--active) + .5) * 20%); background: var(--orange); transition: height .5s ease; }
+.road-progress { position: absolute; left: var(--road-divider-position); top: 32px; width: 2px; height: calc((var(--active) + .5) * 20%); background: var(--orange); transition: height .5s ease; }
 .roadmap-card { min-height: 540px; padding: clamp(30px, 5vw, 70px); display: grid; align-content: space-between; background: white; color: var(--ink); }
 .road-no { font: 600 .75rem 'IBM Plex Mono', monospace; text-transform: uppercase; }
 .roadmap-card h3 { margin: 18px 0; font-size: clamp(2.6rem, 5vw, 5.2rem); line-height: .94; letter-spacing: -.065em; }
@@ -267,7 +266,6 @@ footer { padding: 110px max(5vw, 24px) 32px; background: var(--paper); }
   .roadmap-tabs { grid-template-columns: repeat(5, 1fr); }
   .road-tab { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 14px 5px; border-right: 1px solid #40506a; }
   .road-tab b { font-size: .63rem; }
-  .road-tab.active::after { position: absolute; right: 7px; top: 12px; width: 8px; height: 8px; }
   .road-progress { left: 0; top: auto; bottom: 0; width: calc((var(--active) + 1) * 20%); height: 2px; transition: width .5s ease; }
   .roadmap-card { min-height: 430px; }
   .team-card { min-height: 240px; }
