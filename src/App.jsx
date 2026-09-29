@@ -236,7 +236,7 @@ function App() {
       <section className="metrics section-pad" id="metrics">
         <div className="section-head reveal">
           <span className="eyebrow">Ключевые показатели</span>
-          <h2>Считаем не заявки в CRM, а сохранённые и потерянные контакты.</h2>
+          <h2>Считаем не заявки, а потерянные контакты</h2>
         </div>
         <div className="metrics-list reveal">
           {metrics.map(([title, text], index) => (
