@@ -249,23 +249,6 @@ function App() {
         </div>
       </section>
 
-      <section className="scope section-pad">
-        <div className="scope-board reveal">
-          <div className="scope-title">
-            <span className="eyebrow">Границы пилота</span>
-            <h2>Достаточно узко, чтобы получить честный ответ.</h2>
-          </div>
-          <div className="scope-items">
-            <div><strong>1</strong><span>онлайн-школа</span></div>
-            <div><strong>3</strong><span>месяца заявок</span></div>
-            <div><strong>300+</strong><span>заявок в месяц</span></div>
-            <div><strong>5+</strong><span>менеджеров</span></div>
-            <div><strong>+45</strong><span>дней на учёт оплат</span></div>
-            <div><strong>1</strong><span>решение на выходе</span></div>
-          </div>
-        </div>
-      </section>
-
       <section className="evidence section-pad">
         <div className="section-head reveal">
           <span className="eyebrow">Ориентиры из других EdTech-анализов</span>
