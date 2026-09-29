@@ -222,7 +222,7 @@ function App() {
       <section className="targets section-pad">
         <div className="target-lead reveal">
           <span className="eyebrow">Цель пилота</span>
-          <h2>Обнаружить повторяющиеся потери и определить их причины</h2>
+          <h2>Обнаружить повторяющиеся потери и определить причины</h2>
           <p>На 10-й неделе у руководства есть основание для решения: продолжаем, меняем подход или останавливаем эксперимент.</p>
         </div>
         <div className="target-numbers reveal">
