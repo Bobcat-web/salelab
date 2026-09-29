@@ -252,8 +252,8 @@ function App() {
       <section className="evidence section-pad">
         <div className="section-head reveal">
           <span className="eyebrow">Ориентиры из других EdTech-анализов</span>
-          <h2>Потери на стыке заявки и контакта уже дают измеримый эффект.</h2>
-          <p>Это результаты внешних кейсов, а не обещание salelab. В пилоте мы считаем ваш baseline и проверяем эффект на сопоставимых данных.</p>
+          <h2>Эффективные технологии для измерения эффекта</h2>
+          <p>В пилоте мы считаем ваш baseline и проверяем эффект на сопоставимых данных.</p>
         </div>
         <div className="evidence-grid reveal">
           <a href="https://aplora.pro/ru/cases/edtech-sales-department" target="_blank" rel="noreferrer" className="evidence-card orange">
