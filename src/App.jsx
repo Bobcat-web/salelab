@@ -108,8 +108,8 @@ function Roadmap() {
   return (
     <section className="roadmap-section section-dark" id="roadmap" ref={sectionRef}>
       <div className="section-head light reveal">
-        <span className="eyebrow">Roadmap / 20 недель</span>
-        <h2>От гипотезы — к процессу, который не теряет людей.</h2>
+        <span className="eyebrow">План работы проекта</span>
+        <h2>От гипотезы — к процессу, который не теряет людей</h2>
         <p>Каждый этап заканчивается измеримым решением: продолжать, менять направление или остановиться.</p>
       </div>
       <div className="roadmap-shell reveal">
