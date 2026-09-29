@@ -185,8 +185,8 @@ function App() {
 
       <section className="problem section-pad">
         <div className="problem-title reveal">
-          <span className="eyebrow">Проблема</span>
-          <h2>Маркетинг привёл человека.<br />Но никто не заметил,<br /><span>где он исчез.</span></h2>
+          <span className="eyebrow">Гипотеза</span>
+          <h2>Человек уже пришел к вам,<br />но внезапно <span>исчез</span></h2>
         </div>
         <div className="problem-stack reveal">
           <div className="stack-card stack-orange"><span>01</span>Ответили слишком поздно</div>
