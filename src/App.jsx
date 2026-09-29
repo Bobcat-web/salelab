@@ -198,8 +198,8 @@ function App() {
 
       <section className="diagnosis section-pad" id="pilot">
         <div className="section-head reveal">
-          <span className="eyebrow">Пилот / 6 недель</span>
-          <h2>Восстанавливаем путь заявки. Считаем потери. Показываем, что менять.</h2>
+          <span className="eyebrow">Предлагаемый пилот</span>
+          <h2>Восстанавливаем путь клиента</h2>
         </div>
         <div className="process-grid">
           {[
