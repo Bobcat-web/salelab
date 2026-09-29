@@ -290,8 +290,8 @@ function App() {
 
       <footer>
         <div className="footer-top">
-          <span className="eyebrow">Следующая заявка может не потеряться</span>
-          <h2>Покажем, где ваша школа<br />теряет контакт с клиентом.</h2>
+          <span className="eyebrow">Следующая заявка может стать новым учеником</span>
+          <h2>Покажем, где ваша школа<br />теряет контакт с клиентом</h2>
         </div>
         <a className="footer-cta" href="https://t.me/dem_yank" target="_blank" rel="noreferrer">
           <span>Свяжитесь с нами</span><b>@dem_yank</b><i>↗</i>
