@@ -169,11 +169,11 @@ function App() {
         <div className="hero-card">
           <div className="hero-copy">
             <span className="eyebrow">Диагностика продаж онлайн-школ</span>
-            <h1>Заявка пришла.<br /><em>Клиент — потерялся.</em></h1>
-            <p>salelab находит, где школа теряет контакт после заявки: поздний ответ, забытый follow-up или разговор без следующего шага.</p>
+            <h1>Заявка есть,<br /><em>а клиента нет.</em></h1>
+            <p>Мы поможем найти, где ваша школа теряет клиента после заявки.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="https://t.me/dem_yank" target="_blank" rel="noreferrer">Обсудить пилот</a>
-              <a className="text-link" href="#pilot">Как это работает <span>↓</span></a>
+              <a className="text-link" href="#pilot">Как это работает</a>
             </div>
           </div>
           <div className="hero-visual">
