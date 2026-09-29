@@ -221,15 +221,15 @@ function App() {
 
       <section className="targets section-pad">
         <div className="target-lead reveal">
-          <span className="eyebrow">Цели пилота</span>
-          <h2>Не «дать рекомендации», а доказать связь между потерянным контактом и деньгами.</h2>
+          <span className="eyebrow">Цель пилота</span>
+          <h2>Обнаружить повторяющиеся потери и определить их причины</h2>
           <p>На 10-й неделе у руководства есть основание для решения: продолжаем, меняем подход или останавливаем эксперимент.</p>
         </div>
         <div className="target-numbers reveal">
-          <div className="big-number"><strong>≥70%</strong><span>путей заявок восстановлено</span></div>
-          <div className="big-number"><strong>≥90%</strong><span>совпадение CRM и проверенных звонков</span></div>
-          <div className="big-number"><strong>≤40 ч</strong><span>работы команды на одну диагностику</span></div>
-          <div className="big-number"><strong>≥3×</strong><span>целевая маржа потерь к цене диагностики</span></div>
+          <div className="big-number"><strong>≥15%</strong><span>заявок могут иметь признаки процессной потери</span></div>
+          <div className="big-number"><strong>×1,5</strong><span>реже покупают при позднем контакте или без следующего шага</span></div>
+          <div className="big-number"><strong>+22%</strong><span>к выходу во второй контакт после стандартизации follow-up</span></div>
+          <div className="big-number"><strong>×4–5</strong><span>выше конверсия при четырёх и более касаниях</span></div>
         </div>
       </section>
 
