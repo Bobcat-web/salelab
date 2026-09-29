@@ -169,7 +169,7 @@ function App() {
         <div className="hero-card">
           <div className="hero-copy">
             <span className="eyebrow">Диагностика продаж онлайн-школ</span>
-            <h1>Заявка есть,<br /><em>а клиента нет.</em></h1>
+            <h1>Заявка есть,<br /><em>а клиента нет</em></h1>
             <p>Мы поможем найти, где ваша школа теряет клиента после заявки.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="https://t.me/dem_yank" target="_blank" rel="noreferrer">Обсудить пилот</a>
