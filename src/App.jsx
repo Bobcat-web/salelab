@@ -256,18 +256,18 @@ function App() {
           <p>В пилоте мы считаем ваш baseline и проверяем эффект на сопоставимых данных.</p>
         </div>
         <div className="evidence-grid reveal">
-          <a href="https://aplora.pro/ru/cases/edtech-sales-department" target="_blank" rel="noreferrer" className="evidence-card orange">
-            <span>второй контакт</span><strong>+22%</strong><p>После стандартизации follow-up в EdTech-кейсе</p><small>Aplora / данные заказчика ↗</small>
-          </a>
-          <a href="https://aplora.pro/ru/cases/edtech-sales-department" target="_blank" rel="noreferrer" className="evidence-card lilac">
-            <span>конверсия в сделку</span><strong>+5 п.п.</strong><p>При той же воронке и неизменном предложении</p><small>Aplora / данные заказчика ↗</small>
-          </a>
-          <a href="https://aplora.pro/ru/cases/learnit-funnel-analysis" target="_blank" rel="noreferrer" className="evidence-card olive">
-            <span>4+ касания</span><strong>×4–5</strong><p>Конверсия относительно сценария с одним касанием</p><small>LearnIT / наблюдение по воронке ↗</small>
-          </a>
-          <a href="https://aplora.pro/ru/cases/edtech-sales-department" target="_blank" rel="noreferrer" className="evidence-card navy">
-            <span>рутинное время</span><strong>−70%</strong><p>После автоматизации фиксации и контроля действий</p><small>Aplora / замер операций CRM ↗</small>
-          </a>
+          <article className="evidence-card orange">
+            <span>второй контакт</span><strong>+22%</strong><p>После стандартизации follow-up в EdTech-кейсе</p><small>Обезличенные данные EdTech-проекта</small>
+          </article>
+          <article className="evidence-card lilac">
+            <span>конверсия в сделку</span><strong>+5 п.п.</strong><p>При той же воронке и неизменном предложении</p><small>Обезличенные данные EdTech-проекта</small>
+          </article>
+          <article className="evidence-card olive">
+            <span>4+ касания</span><strong>×4–5</strong><p>Конверсия относительно сценария с одним касанием</p><small>Обезличенные данные EdTech-проекта</small>
+          </article>
+          <article className="evidence-card navy">
+            <span>рутинное время</span><strong>−70%</strong><p>После автоматизации фиксации и контроля действий</p><small>Обезличенные данные EdTech-проекта</small>
+          </article>
         </div>
       </section>
 

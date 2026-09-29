@@ -177,7 +177,7 @@ button { font: inherit; }
 .evidence { background: var(--paper); }
 .evidence-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
 .evidence-card { min-height: 360px; padding: 24px; display: flex; flex-direction: column; border: 2px solid var(--ink); transition: transform .2s, box-shadow .2s; }
-.evidence-card:hover { transform: translateY(-8px); box-shadow: 8px 8px 0 var(--ink); }
+a.evidence-card:hover { transform: translateY(-8px); box-shadow: 8px 8px 0 var(--ink); }
 .evidence-card > span { font: 600 .7rem 'IBM Plex Mono', monospace; text-transform: uppercase; }
 .evidence-card strong { margin-top: 38px; font-size: clamp(3rem, 5vw, 5rem); letter-spacing: -.07em; }
 .evidence-card p { margin: auto 0 24px; line-height: 1.45; }
